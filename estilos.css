@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 80%;
+    background: #e8ebf1;
+    margin: auto;
+}
+header h1 {
+    width: 50%;
+    height: 57px;
+    overflow: hidden;
+    text-indent: -400px;
+    background: url("imagenes/logo.png") no-repeat 20px;
+    display: inline-block;
+}
+nav{
+    display: inline-block;
+    vertical-align: bottom;
+    width: 49%;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    width: 100px;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: #aaa;
+    text-align: center;
+    height: 57px;
+    line-height: 57px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: black;
+}
+#contenido{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+div{
+    width: 70%;
+    padding: 30px 0;
+    float: left;
+}
+div h2{
+    font-size: 2em;
+    background: #e05936;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    color: white;
+}
+div figure{
+    display: inline-block;
+}
+div ul{
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+    font-size: 1.5em;
+    line-height: 2em;
+    padding-left: 40px;
+}
+aside{
+    width: 30%;
+    padding: 30px 0;
+    float: left;
+    text-align: center;
+}
+footer{
+    width: 80%;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    font-size: .8em;
+    color: #333;
+    margin: auto;
+    background-color: #e8ebf1;
+}
